@@ -1,0 +1,139 @@
+.no-padding {
+    padding: 0;
+}
+
+.row {
+    position: relative;
+}
+.container-fluid {
+position: relative;
+}
+
+
+
+
+.bg-image-1 {
+    background-image: url(../img/img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+
+   .hero-image {
+    background-image: url(../img/img-1.png);
+    height: 100%;
+    width: auto;
+    padding-top: 24rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }   
+
+
+.carousel-caption {
+    position: absolute;
+    right: 10%;
+    bottom: 65%;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #3f3f3f;
+    text-align: center;
+    outline-width: 1px:
+    outline-color: #3f3f3f;
+    border: 1px solid #3f3f3f!important;
+}
+
+.card-quote {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    border: none;
+}
+
+.carousel-caption-header {
+    position: absolute;
+    width: 30%;
+    bottom: 35%;
+    left: 3%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: ;
+    padding-right: ;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+   }
+
+
+   .carousel-caption-main {
+    position: absolute;
+    width: 80%;
+    top: 6%;
+    left: 10%;
+    z-index: 10;
+    padding-top:4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #33333;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    border: 1px solid;
+   }
+
+ .h2-main {
+    font-family: 'Jomolhari', serif;
+    font-size: 3.2vw; 
+    padding-bottom: 2%; 
+ }  
+ .h3-main {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.6vw;   
+ }
+   
+.h1-header {
+    font-family: 'Jomolhari', serif;
+    font-size: 3rem;
+    position: relative;
+    display: inline-block;
+}
+.h2-header {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2vw;
+    position: relative;
+    display: ;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    text-align: center;
+    letter-spacing: 4px;
+}
+.img-logo {
+    width: 75%;
+    position: relative;
+}
+
+.h5-quote {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.5vw;
+    color: #4f4f4f;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    
+   
+}
+
+.h5-quote-signature {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2vw;
+    color: #4f4f4f;
+    text-align: right;
+    position: relative ;
+    display: inline-block;
+    text-align: right;
+   
+}
