@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,6 +8,9 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
 
@@ -19,45 +22,54 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Jomolhari|Libre+Franklin:200&display=swap" rel="stylesheet">
 
-
+  
 </head>
 
-<body>
+<body class="bg-light">
 
-  <!-- NavBar
-  <div class="container-fluid no-padding">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Maryline Pataro</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">The Brand
-              <span class="sr-only">(current)</span>
-            </a>
+<!-- NavBAr -->
+<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-center navbar-font pt-3" id="navbar2">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">The Brand </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">The Store</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="boutique.html">Boutique</a>
           </li>
         </ul>
       </div>
-    </div>
-  </nav> -->
+  
+  <a class="navbar-brand  href="#"> 
+    <img src="img-mobile/logo_letters_sm.svg" width="auto" height="40" class="d-inline-block align-top" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav pt-3">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>   
+       
+</nav>
+
+
+
+
+
 
   <!-- Heading row -->
   <div class="container-fluid no-padding">
     <div class="row">
       <div class="col no-padding">
-        <img class="w-100 img-fluid " src="img/header-cover-1.png" alt="">
-        <div class="carousel-caption-header ">
+        <img class="w-100 img-fluid large-image" src="img/header-cover-1.png" alt="">
+        <img class="w-100 img-fluid small-image " src="img-mobile/header_cover_sm_1.jpg" alt="">
+        <div class="header-text-box ">
             <img class="img-logo pb-4" src="img/mp_logo.svg">
           <h2 class="h2-header">Modern fine jewelry </h2>
           <h2 class="h2-header"> for every ocassion</h2>
@@ -77,127 +89,373 @@
 
 
     <!--Quote-->
-    <div class=" card-quote text-center no-padding">
-        <div>
-        <h5 class="h5-quote"  >“Jewerly are emotions and memories that transcend generations”<span pt-3> <br>- Maryline Pataro</span>        </h5>
+  <div class=" card-quote no-padding">
+      <div>
+      <h5 class="h5-quote"  >“Jewerly are emotions and memories that transcend generations” </h5>
+      <h5 class="h5-signature"> - Maryline Pataro</h5>
+      </div>
+
+  </div>
+  
+    <!-- Ready to Wear-->
+  <div class="container-fluid no-padding ">
+    <div class="row pb-3 ">
+        
+      <div class= " col-12 col-md-4 no-padding ">
+        <div class="carousel-caption-main-right ">
+          <h2 class="h2-main">Ready to Wear</h2>
+          <h3 class="h3-main">Look your best everyday with that piece that that mix and matches with everything</h3>
         </div>
+        <img class="img-fluid w-100 large-image" src="img/ready_wear_2.png">
+        <img class="img-fluid w-100 small-image small-padding" src="img-mobile/ready_to_wear_sm_2.png">
+           
+      </div>
+    
+
+      <div class=" col-12 col-md-8 no-padding ">
+        <img class="img-fluid w-100 large-image" src="img/ready_wear_1.png">
+        <img class="img-fluid w-100 small-image" src="img-mobile/ready_to_wear_sm_1.png">
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Classic -->
+  <div class="container-fluid no-padding">
+    <div class="row py-2">
+
+      <div class=" col-12 col-md-8 no-padding last">
+        <img class="img-fluid w-100 large-image" src="img/classic_1.png">
+        <img class="img-fluid w-100 small-image" src="img-mobile/classic_sm_1.png">
+      </div>
+
+      <div class=" col-12 col-md-4 no-padding">
+          <div class="carousel-caption-main-left">
+              <h2 class="h2-main" >Classic</h2>
+              <h3 class="h3-main">Looking for that timeless piece that will withstand the test of time? </h3>
+          </div>
+        <img class="img-fluid w-100 large-image" src="img/classic_2.png">
+        <img class="img-fluid w-100 small-image small-padding" src="img-mobile/classic_sm_2.png">
+      </div>
 
     </div>
-    
-    <!-- Ready to Wear-->
-    <section>
-        <div class="container-fluid no-padding ">
-          <div class="row pb-3">
-              
-            <div class= "col-sm-4 no-padding">
-                  <img class="img-fluid w-100" src="img/ready_wear_2.png">
-                  <div class="carousel-caption-main">
-                      <h2 class="h2-main">Ready to Wear</h2>
-                      <h3 class="h3-main">Look your best everyday with that piece that that mix and matches with everything</h3>
-                    </div>
-            </div>
-  
-            <div class="col-sm-8 no-padding">
-              <img class="img-fluid w-100" src="img/ready_wear_1.png">
-            </div>
-            
+  </div>  
+
+  <!-- Trendy-->
+  <div class="container-fluid no-padding ">
+
+      <div class="text-center pt-3"> 
+          <h2 class="h2-main">Trendy</h2>
+          <h3 class="h3-main">Stay ahead of the curve with the latest trends from our selection </h3>
+      </div>
+      <div class="row py-2">
+      <div class= " col-12 col-md-6  ">
+        <img class="img-fluid w-100 trendy-padding large-image" src="img/trendy_2.jpg">
+        <img class="small-padding w-100 small-image" src="img/trendy_2.jpg">
+      </div>
+
+      <div class=" col-12 col-md-6 ">
+        <img class="img-fluid w-100 trendy-padding large-image" src="img/trendy_1.jpg">
+        <img class="img-fluid w-100 small-padding small-image" src="img/trendy_1.jpg">
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Engagement & Bridal -->
+  <div class="container-fluid no-padding">
+    <div class="row py-2">
+
+      <div class="col-12 col-md-8 no-padding last">
+        <img class="img-fluid w-100 large-image" src="img/bridal_1.png">
+        <img class="img-fluid w-100 small-image" src="img/bridal_1.png">
+      </div>
+
+      <div class="col-12 col-md-4 no-padding">
+        <div class="carousel-caption-main-left">
+            <h2 class="h2-main" >Engagement & Bridal</h2>
+            <h3 class="h3-main">We have the right piece for the most important day of all </h3>
           </div>
-        </div>
-  
-    
-  
-      </section>
-  
-  <!-- Classic -->
-      <section>
-          <div class="container-fluid no-padding">
-            <div class="row py-3">
-    
-              <div class="col-8 no-padding">
-                <img class="img-fluid w-100" src="img/classic_1.png">
-              </div>
-    
-              <div class="col-4 no-padding">
-                <img class="img-fluid w-100" src="img/classic_2.png">
-                <div class="carousel-caption-main">
-                    <h2 class="h2-main" >Classic</h2>
-                    <h3 class="h3-main">Looking for that timeless piece that will withstand the test of time? </h3>
-                  </div>
-              </div>
-    
-            </div>
-    
-        </section>
-  
-    <!-- Trendy-->
-    <section>
-        <div class="container-fluid no-padding ">
-          <div class="row py-3">
-              
-            <div class= "col-4 no-padding">
-                  <img class="img-fluid w-100" src="img/trendy_2.png">
-                    <div class="carousel-caption-main">
-                    <h2 class="h2-main" >Trendy</h2>
-                    <h3 class="h3-main">Stay ahead of the curve with the latest trends from our selection </h3>
-                  </div>
-              
-            </div>
-  
-            <div class="col-8 no-padding">
-              <img class="img-fluid w-100" src="img/trendy_1.png">
-            </div>
-            
+        <img class="img-fluid w-100 large-image" src="img/bridal_2.png">
+        <img class="img-fluid w-100 small-image small-padding" src="img/bridal_2.png">
+      </div>
+
+    </div>
+
+<!-- Precious Stones, Diamonds and Pearls -->
+  <div class="container-fluid large-image" >
+    <div class="row image-row">
+      
+      <div class="col-md-4">
+        <img class="img-fluid w-100" src="img/precious_stones.png">
+          <h2 class="h2-row" >Precious Stones</h2>
+          <h3 class="h3-row">Rubies, Emeralds, Sapphires and other gemstones  </h3>
+      </div>
+      
+      <div class="col-md-4">
+        <img class="img-fluid w-100 " src="img/diamonds.png">
+        <h2 class="h2-row" >Diamonds</h2>
+        <h3 class="h3-row">Different sizes, clarity, cuts, carats and styles for your every need </h3>
+      </div>
+
+      <div class="col-md-4">
+        <img class="img-fluid w-100 " src="img/pearls.png">
+        <h2 class="h2-row" >Pearls</h2>
+        <h3 class="h3-row">Natural or cultivated.  We have the perfect pearl for you </h3>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+ <!-- Carousel precious stones,  pearls and diamonds -->
+
+ <div id="carouselExampleIndicators" class="carousel slide small-padding small-image " data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2 class="h2-main text-center pt-4 " >Precious Stones</h2>
+        <h3 class="h3-main text-center pb-2">Rubies, Emeralds, Sapphires and other gemstones  </h3>
+        <img class="d-block w-100" src="img/precious_stones.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+          <h2 class="h2-main text-center pt-4" >Diamonds</h2>
+          <h3 class="h3-main text-center pb-2">Different sizes, clarity, cuts, carats and styles for your every need </h3>
+        <img class="d-block w-100" src="img/diamonds.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <h2 class="h2-main text-center pt-4" >Pearls</h2>
+        <h3 class="h3-main text-center pb-2">Natural or cultivated.  We have the perfect pearl for you </h3>
+        <img class="d-block w-100" src="img/pearls.png" alt="Third slide">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+<!-- Gold& bold-->
+  <div class="container-fluid no-padding ">
+    <div class="row py-3">
+        
+      <div class= "col-12 col-md-4 no-padding ">
+          <div class="carousel-caption-main-right">
+              <h2 class="h2-main" >Gold & Bold</h2>
+              <h3 class="h3-main">Elegance, expression and empowerment with our beautifully crafted gold pieces </h3>
           </div>
-        </div>
+            <img class="img-fluid w-100 large-image" src="img/gold_bold_2.png">
+            <img class="img-fluid w-100 small-image small-padding" src="img-mobile/gold_bold_sm_2.png">
+      </div>
 
-
-
-
-
+      <div class=" col-12 col-md-8 no-padding">
+        <img class="img-fluid w-100 large-image" src="img/gold_bold_1.png">
+        <img class="img-fluid w-100 small-image" src="img-mobile/gold_bold_sm_1.png">
+      </div>
+      
+    </div>
+  </div>
 
 <!-- Statement Pieces -->
-    <section>
-        <div class="container-fluid no-padding">
-          <div class="row py-3">
-  
-            <div class="col-8 no-padding">
-              <img class="img-fluid w-100" src="img/statement_pic_1.png">
-            </div>
-  
-            <div class="col-4 no-padding">
-              <img class="img-fluid w-100" src="img/statement_pic_2.png">
-              <div class="carousel-caption-main">
-                  <h2 class="h2-main" >Statement Pieces</h2>
-                  <h3 class="h3-main">Looking for that special piece? Transform your look with our statement pieces </h3>
-                </div>
-            </div>
-  
-          </div>
-  
-      </section>
 
-    <!-- Gold& bold-->
-    <section>
-        <div class="container-fluid no-padding ">
-          <div class="row py-3">
-              
-            <div class= "col-4 no-padding">
-                  <img class="img-fluid w-100" src="img/gold_bold_2.png">
-                  <div class="carousel-caption-main">
-                      <h2 class="h2-main" >Gold & Bold</h2>
-                      <h3 class="h3-main">Elegance, expression and empowerment with our beautifully crafted gold pieces </h3>
-                    </div>
-            </div>
-  
-            <div class="col-8 no-padding">
-              <img class="img-fluid w-100" src="img/gold_bold_1.png">
-            </div>
-            
+  <div class="container-fluid no-padding">
+    <div class="row py-2">
+
+      <div class="col-12 col-md-8 no-padding last">
+        <img class="img-fluid w-100 large-image" src="img/statement_1.png">
+        <img class="img-fluid w-100 small-image" src="img-mobile/statement_sm_1.png">
+      </div>
+
+      <div class="col-12 col-md-4 no-padding">
+          <div class="carousel-caption-main-left">
+              <h2 class="h2-main" >Statement Pieces</h2>
+              <h3 class="h3-main">Looking for that special piece? Transform your look with our statement pieces </h3>
           </div>
+              <img class="img-fluid w-100 large-image" src="img/statement_2.png">
+              <img class="img-fluid w-100 small-image small-padding" src="img/statement_2.png">
+      </div>
+
+    </div>
+  </div>
+
+  
+<!-- Religious, Tiaras  -->
+  <div class="container-fluid large-image">
+    <div class="row image-row">
+
+      <div class="col-md-6">
+        <img class="img-fluid w-100" src="img/religious.png">
+        <h2 class="h2-row" >Religious</h2>
+        <h3 class="h3-row">A perfect gift for any religious celebration</h3>
+      </div>
+
+      <div class="col-md-6">
+        <img class="img-fluid w-100" src="img/tiaras.png">
+        <h2 class="h2-row" >Tiaras</h2>
+        <h3 class="h3-row">Spectacular fine crystal and rhinestone tiaras </h3>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Bijoux, Kids -->
+  <div class="container-fluid large-image">
+      <div class="row image-row">
+  
+        <div class="col-md-6">
+          <img class="img-fluid w-100" src="img/Bijoux.jpg">
+          <h2 class="h2-row" >Bijoux</h2>
+          <h3 class="h3-row"> Not everything that sparkles are diamonds. </h3>
         </div>
-      </section>
+  
+        <div class="col-md-6">
+          <img class="img-fluid w-100" src="img/Kids.jpg">
+          <h2 class="h2-row" >Kids</h2>
+          <h3 class="h3-row"> A gift to remember for your small ones. Necklaces, earings, bracelets and more.</h3>
+        </div>
+  
+  
+      </div>
+    </div>
 
-      <!-- Preciosu stones, diamonds, pearls -->
+
+<!-- Carousel Tiaras & religious & Bijoux and Kids  -->
+<div id="carouselExampleIndicators2" class="carousel slide small-image small-padding " data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/religious.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/tiaras.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/bijoux.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+          <img class="d-block w-100" src="img/kids.jpg" alt="fourth slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+
+
+<!-- The Store -->
+ <div class="container-fluid no-padding">
+    <div class="row">
+      <div class="col no-padding">
+        <img class="w-100 img-fluid " src="img/the_store.png" alt="">
+        <div class="boutique-box-store">
+          <h2 class="boutique-heading">The Boutique </h2>
+          <button type="button" class="btn btn-outline-primary">Learn More</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+
+
+
+
+  <!-- Line Break -->
+  <div class="container-fluid no-padding footer-line">   </div>
+
+  <!-- Full Footer -->
+
+      <div class="container image-row">
+        <div class="row">
+
+          <!-- Social Media -->
+          <div class="col-12 text-center pb-4 bg-light">
+              <a href="https://www.facebook.com/marylinepataro/">
+                  <i class="fab fa-3x fa-facebook px-2"></i>
+                </a>
+            
+              <a href="https://www.instagram.com/maryline_pataro/">
+                <i class="fab fa-3x fa-instagram px-2"></i>
+              </a>
+
+          </div>
+
+           <!-- Contact Form -->
+            <div class="col-md-4 text-center pb-3">
+                <div> <h5 class="h3-main pb-3 text-center text-md-left"> Contact Us</h5> </div>
+                  <form id="" alt="" class="pb-3" action="#">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+                    <input type="email" class="form-control mt-3" id="email" name="email" placeholder="Correo" required>
+                    <textarea type="text" class="form-control mt-3" id="message" name="message" placeholder="Mensajee" required></textarea>
+                    
+                    <h5 id="contact-status" class="text-secondary" style="display:none;">Gracias por contactarnos.</h5>
+                    <button class="btn-brilat mt-3" type="submit" id="super-easy-btn">Enviar</button>
+                  </form>
+              </div>
+              <!-- Map -->
+              <div class="col-md-4 pb-3">
+                <div>  <h5 class="h3-main pb-3 text-center text-md-left"> Our Location</h5> </div>
+               
+                  <iframe
+                    class="w-100"
+                    width="400"
+                    height="80%"
+                    frameborder="0" style="border:0"
+                    src="https://maps.google.com/maps?q=ph%20dream%20plaza&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen>
+                  </iframe>      
+              </div>
+              <!-- Horarios -->
+              <div class="col-md-4 text-center text-md-left">                 
+               
+                  <h5 class="h3-main font-weight-bold pb-3">Horarios</h5>
+                  <p><span class="font-weight-bold">Lunes - Viernes:</span> 10am - 7pm</p>
+                  <p><span class="font-weight-bold">Sábados:</span> 11am - 5pm</p>
+              
+                  </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+<!-- Footer -->
+  <footer class="small text-center footer-marble container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <p class="text-lg-left">&copy; Maryline Pataro Joyeros 2019</p>
+        </div>
+        <div class="col-6">
+          <p class="text-lg-right">powered by <a href="http://torus-digital.com">Torus</a></p>
+        </div>
+      </div>
+    
+  </footer>
 
 
     
@@ -209,6 +467,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="index.js" charset="utf-8"></script>
+
+   
 </body>
 
 </html>
