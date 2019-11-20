@@ -1,6 +1,11 @@
+/* Body */
 
 body {
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.bg-body {
+    background-color: #f2f2f2;
 }
 
 
@@ -21,14 +26,26 @@ body {
 position: relative;
 }
 
-.bg-light {
-    background-color: #f2f2f2;
+.padding-p {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:3%;
 }
-
-.footer-font{
-    font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 769px) and (max-width: 926px) {
+    .padding-p {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top:3%;
+    }
 }
-
+@media (max-width: 768px){
+    .padding-p {
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top:3%;
+        padding-bottom: 4%;
+    }
+} 
 
 /* Navbar */
 .navbar-brand {
@@ -58,13 +75,18 @@ position: relative;
 }}
 
 .navbar-light .navbar-nav .nav-link {
-    color: #bdbdbd;}
+    color: #808080;}
 
 @media (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
     }}
+
+ 
+.bg-dark {
+    background-color:#282421;
+    }   
 
 /* Header text box */
 
@@ -183,6 +205,7 @@ position: relative;
     position: relative ;
     text-align: right;
     margin-right: 9%;
+    letter-spacing: .2rem;
 }
 @media (max-width: 768px){
     .h5-signature {
@@ -273,16 +296,38 @@ position: relative;
 /* Font Size main header text boxes */
  .h2-main {
     font-family: 'Jomolhari', serif;
-    font-size: 3.2vw; 
-    padding-bottom: 1%; 
+    font-size: 2.6vw;
+    color: #333333; 
+    padding-bottom: .7rem; 
+    letter-spacing: .3rem;
  }  
  @media (min-width: 576px) and (max-width: 900px) {
     .h2-main {
         font-size: 3.3vw;
+        padding-bottom: .7rem; 
     }  
  }
  @media (max-width: 768px) {
     .h2-main {
+        font-size: 30px;
+        padding-bottom: 1rem; 
+    }
+}
+
+.h2-main-white {
+    font-family: 'Jomolhari', serif;
+    font-size: 2.6vw;
+    color: #ffff; 
+    padding-bottom: 1rem; 
+    letter-spacing: .3rem;
+ }  
+ @media (min-width: 576px) and (max-width: 900px) {
+    .h2-main-white {
+        font-size: 4vw;
+    }  
+ }
+ @media (max-width: 768px) {
+    .h2-main-white {
         font-size: 30px;
     }
 }
@@ -290,7 +335,10 @@ position: relative;
 
 /* Font size main paragraph text boxes */
  .h3-main {
-    font-size: 1.8vw;   
+    font-size: 1.6vw;
+    color: #333333; 
+     
+
  }
  @media (min-width: 576px) and (max-width: 900px) {
     .h3-main {
@@ -304,6 +352,38 @@ position: relative;
 }
 
 
+.h3-main-white {
+    font-size: 1.6vw;
+    color: #fffff;  
+
+ }
+ @media (min-width: 576px) and (max-width: 900px) {
+    .h3-main-white {
+        font-size: 1.8vw;
+    }  
+ }
+ @media (max-width: 768px) {
+    .h3-main-white {
+        font-size: 18px;
+    }
+}
+
+
+
+
+/* Text box Bridal  */
+.bridal-text-box {
+    position: absolute;
+    width: 30%;
+    bottom: 42%;
+    left: 67%;
+    z-index: 10;
+    padding:30px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* border: 1px solid; */
+}
 
 /* Carousel */
 .carousel-control-next, .carousel-control-prev {
@@ -376,11 +456,7 @@ position: relative;
     padding-bottom: .5rem;
 }
 
-.btn-outline-primary {
-    color: #fff;
-    border-color: #fff;
 
-}
 
 .btn {
         display: inline-block;
@@ -391,17 +467,135 @@ position: relative;
         -ms-user-select: none;
         user-select: none;
         padding: 0.3rem 1.5rem;
-        font-size: 2vw;
+        font-size: 2.4vw;
         line-height: 1.5;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
 
 
 
-.bg-dark {
-    background-color:#281e23;
-    }
+    
+
+/* About US */
+.line-height-about{
+    line-height: 1.6;
+}
+
+.about-text-box {
+    position: relative;
+    width: 86%;
+    bottom: -24%;
+    left: -12%;
+    z-index: 10;
+    padding: 12px;
+    color: #;
+    text-align: center;
+    background-color: #ffff;
+}
         
+@media (max-width: 768px) {
+    .about-text-box {
+        position: sticky;
+        width: 100%;
+        margin-top: 3%;
+        z-index: 10;
+        padding-top: 18px;
+        padding-bottom: 10px;
+        color: #;
+        text-align: center;
+        background-color: #f8f9fa;
+    }
+    }
+
+    .h3-about {
+        font-size: 1.5vw;
+        color: #333333;
+    }
+    @media (min-width: 576px) and (max-width: 897px) {
+        .h3-about {
+            font-size: 1.6vw;
+        }  
+     }
+     @media (max-width: 768px) {
+        .h3-about {
+            font-size: 18px;
+        }
+    }
+
+
+
+/* The Boutique */
+
+.btn#boutique-btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.boutique-text-box {
+    position: absolute;
+    width: 89%;
+    bottom: 36%;
+    left: 17%;
+    z-index: 10;
+    padding: 10% 6% 10% 6%;
+    color: #;
+    text-align: center;
+    background-color: #D3E5DE;
+}
+
+@media (max-width: 768px) {
+    .boutique-text-box {
+        position: static;
+        width: 100%;
+        bottom: 29%;
+        left: 17%;
+        z-index: 10;
+        padding: 10% 6% 10% 6%;
+        color: #;
+        text-align: center;
+        background-color: #D3E5DE;
+    }
+}
+
+
+.longines-text-box {
+    position: absolute;
+    width: 121%;
+    top: -42%;
+    left: 15%;
+    z-index: 10;
+    padding: 3%;
+    color: #33333;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    border: 0px solid;
+}
+
+    @media (max-width: 768px) {
+        .longines-text-box {
+        position: static;
+        width: 100%; 
+        top: 0%; 
+        left: 0%;
+        z-index: 10;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 5%; 
+        padding-right: 5;
+        color: #33333;
+        text-align: center;
+        border: none;
+    } 
+}  
 
   /* Footer */
 
@@ -436,3 +630,7 @@ footer {
     background-size: cover;
     margin: 2% 0 0 0;
   } 
+
+  .footer-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
