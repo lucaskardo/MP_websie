@@ -3,6 +3,7 @@ function checkScroll(){
 
     if($(window).scrollTop() > startY){
         $('.navbar').addClass("scrolled");
+        $('.display-nav').removeClass("display-nav");
     }else{
         $('.navbar').removeClass("scrolled");
     }
@@ -13,3 +14,4 @@ if($('.navbar').length > 0){
         checkScroll();
     });
 }
+

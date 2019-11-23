@@ -63,7 +63,7 @@ position: relative;
 
 .navbar.scrolled {
  
-    background: rgba(63, 63, 63, 0.7);
+    background: rgba(114, 113, 113, 0.7);
 }
 
 .navbar-brand {
@@ -119,6 +119,7 @@ position: relative;
 @media (min-width: 451px) and (max-width: 768px){
     .nav-logo{
         margin-left: 49%;
+        
     }
 }
 
@@ -127,6 +128,10 @@ position: relative;
     .nav-logo{
         margin-left: 43%;
     }
+}
+
+.display-nav{ 
+display: none!important;
 }
 
 .sticky-top {
@@ -160,7 +165,7 @@ position: relative;
 
 @media (min-width: 769px) and (max-width: 1050px) {
     .header-text-box{
-    bottom: 20%;
+    bottom: 21%;
     }
 }
 
@@ -196,12 +201,14 @@ position: relative;
 @media (max-width: 768px){
     .h2-header {
     font-size: 5.5vw;
-    }}
+    }
+    }
 
  @media (min-width: 576px) and (max-width: 910px) {
      .h2-header{
-        letter-spacing: 4px;
-     }}
+        letter-spacing: 4.5px;
+     }
+    }
 
 
 /* Header text box logo     */
@@ -238,7 +245,7 @@ position: relative;
 
 /* Quote section */
 .card-quote {
-    padding-top: 3%;
+    padding-top: 2rem;
     padding-bottom: 3%;
     border: none;
     background-color: #F6F5F7;
@@ -249,31 +256,43 @@ position: relative;
     position: relative;
     text-align: center; 
 }
+@media (min-width: 575px) and (max-width: 768px) {
+    .h5-quote{
+        font-size: 20px;
+    }
+    }
 
-@media (max-width: 768px){
+@media (max-width: 575px){
     .h5-quote {
-        font-size: 22px;
+        font-size: 18px;
         text-align: left;
-        padding-left: 10%;
+        padding-left: 3%;
     }
 
 }
 
 .h5-signature {
-    font-size: 2.3vw;
+    font-size: 2.1vw;
     font-family: 'Jomolhari', serif;
     color: #4f4f4f;
     text-align: right;
     position: relative ;
     text-align: right;
     margin-right: 18%;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
 }
-@media (max-width: 768px){
+@media (min-width: 575px) and (max-width: 768px) {
+    .h5-signature{
+        margin-right: 6%;
+    }
+    }
+
+@media (max-width: 575px){
     .h5-signature {
-        font-size: 22px;
-        text-align: right;
-        padding-right: 10%;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 6%;
+    padding-left: .7rem;
     }
 
 }
@@ -451,7 +470,7 @@ position: relative;
     .bridal-text-box {
         position: static;
         width: 100%;
-        padding: 2% 0% 5% 2%;
+        padding: 5% 1% 5% 1%;
         color: #ffff;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.2);
@@ -647,6 +666,20 @@ position: relative;
     padding: 0% 7% 2% 7%;
 }
 
+@media(max-width:768px){
+    .logo-padding{
+        padding:0% 20%;
+    }
+}
+
+.longines-padding {
+    padding: 7%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+    }
+
 .longines-text-box {
     position: absolute;
     width: 121%;
@@ -683,6 +716,24 @@ position: relative;
         border: none;
     } 
 }  
+    .longines-padding{
+    padding: 0 4% 5% 4%;
+    position: relative;
+    bottom: -9%;
+    left: -20%;
+    z-index: 10;
+    }
+@media (max-width:768px){
+.longines-padding {
+    padding: 7%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+}
+}
+
+
 
 .side{
     padding-left: 12rem!important;
@@ -723,7 +774,7 @@ padding-top:5%;
   height: 3rem;
   background-image:url(../img/marble.png);
   background-size: cover;
-  margin: ;
+
 } 
 
 .footer-line{
@@ -744,14 +795,36 @@ padding-top:5%;
     font-size: 1.2rem;
 }
 
-.fab {
+.far, .fas, .fab {
     color: #5b5b5b;
 }
 
 .bg-footer{
     background-color:#a4a4a4;
     color: #f5f4f6;
+    font-size: 1rem;
 }
 .footer-title{
     font-size: 1.5rem;
 }
+
+.footer-padding {
+    padding:5%;
+}
+
+a#torus {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a#torus:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
