@@ -550,6 +550,15 @@ display: none!important;
     padding-bottom: .5rem;
 }
 
+@media(max-width: 768px){
+.boutique-heading {
+    font-family: 'Jomolhari', serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding-bottom: .5rem;
+}
+}
+
 
 
 .btn {
