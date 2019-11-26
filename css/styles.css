@@ -578,7 +578,7 @@ display: none!important;
 .about-text-box {
     position: relative;
     width: 86%;
-    bottom: -24%;
+    bottom: -19%;
     left: -12%;
     z-index: 10;
     padding: 12px;
@@ -672,13 +672,6 @@ display: none!important;
     }
 }
 
-.longines-padding {
-    padding: 7%;
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    z-index: 10;
-    }
 
 .longines-text-box {
     position: absolute;
@@ -717,22 +710,21 @@ display: none!important;
     } 
 }  
     .longines-padding{
-    padding: 0 4% 5% 4%;
+    padding: 0%;
     position: relative;
-    bottom: -9%;
+    bottom: -5%;
     left: -20%;
     z-index: 10;
     }
 @media (max-width:768px){
 .longines-padding {
-    padding: 7%;
+    padding: 8%;
     position: relative;
     bottom: 0%;
     left: 0%;
     z-index: 10;
 }
 }
-
 
 
 .side{
@@ -768,30 +760,12 @@ padding-top:5%;
 
 }
 
-.footer-marble{
-  display:relative;
-  border:none;
-  height: 3rem;
-  background-image:url(../img/marble.png);
-  background-size: cover;
-
-} 
-
-.footer-line{
-    display:relative;
-    border:none;
-    height: 6px;
-    background-image:url(../img/marble.png);
-    background-size: cover;
-    margin: 2% 0 0 0;
-  } 
-
   .footer-font{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn#contact-btn{
-    padding: 0.2rem 1.5rem;
+    padding: 0.1rem 1.9rem;
     font-size: 1.2rem;
 }
 
@@ -828,3 +802,18 @@ a#torus {
     background-repeat: repeat-x;
     text-decoration: none;
   }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgba(255,255,255,.08);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
