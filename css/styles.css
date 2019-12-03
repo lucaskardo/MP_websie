@@ -847,7 +847,7 @@ a#torus {
         text-align: left;}
 
 .contact-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("../img/contact_bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../img/contact_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
