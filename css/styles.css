@@ -142,6 +142,12 @@ display: none!important;
     width: 100%;
 }
 
+.sticky-top2 {
+    /* position: fixed; */
+    top: 0;
+    z-index: 1020;
+    width: 100%;}
+
 /* Header text box */
 
 
@@ -587,8 +593,7 @@ display: none!important;
 .about-text-box {
     position: relative;
     width: 86%;
-    bottom: -19%;
-    left: -12%;
+    margin: 17% 0% 0% -1%;
     z-index: 10;
     padding: 12px;
     color: #;
@@ -598,15 +603,13 @@ display: none!important;
         
 @media (max-width: 768px) {
     .about-text-box {
-        position: sticky;
         width: 100%;
-        margin-top: 3%;
         z-index: 10;
-        padding-top: 18px;
-        padding-bottom: 10px;
+        margin: 0%;
         color: #;
         text-align: center;
         background-color: #f8f9fa;
+        
     }
     }
 
@@ -791,6 +794,12 @@ padding-top:5%;
     font-size: 1.5rem;
 }
 
+.footer-title2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
 .footer-padding {
     padding:5%;
 }
@@ -826,3 +835,49 @@ a#torus {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .form-bottom {
+        padding: 25px 25px 30px 25px;
+        background: #444;
+        background: rgba(0, 0, 0, 0.3);
+        -moz-border-radius: 0 0 4px 4px;
+        -webkit-border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 4px;
+        text-align: left;}
+
+.contact-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("../img/contact_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.form-padding {
+    position: relative;
+    width: 50%;
+    bottom: 2%;
+    left: 25%;
+    padding: 10%;
+    z-index: 10;
+    padding: 2%;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(255 , 255, 255, 0.2);
+}
+
+@media(max-width: 768px){
+    .form-padding {
+        position: relative;
+        width: 100%;
+        bottom: -2%;
+        left: 0%;
+        padding: 10%;
+        z-index: 10;
+        padding: 2%;
+        color: #fff;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
